@@ -9,8 +9,6 @@ import java.util.Set;
 import com.bruno.dscatalog.model.Category;
 import com.bruno.dscatalog.model.Product;
 
-
-
 public class ProductDTO implements Serializable {
 	private static final long serialVersionUID = 1L;
 
