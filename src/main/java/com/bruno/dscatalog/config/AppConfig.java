@@ -29,6 +29,4 @@ public class AppConfig {
     JwtTokenStore tokenStore() {
 		return new JwtTokenStore(accessTokenConverter());
 	}	
-	
-	
 }

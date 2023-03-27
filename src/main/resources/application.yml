@@ -1,0 +1,19 @@
+spring:
+  profiles:
+    active: ${APP_PROFILE:test}
+  jpa:
+    open-in-view: true
+
+server:
+  port: 8080
+  
+security:
+    oauth2:
+      client:
+        client-id: ${CLIENT_ID:myclientid}
+        client-secret: ${CLIENT_SECRET:myclientsecret}
+        
+jwt:
+   secret: ${JWT_SECRET:MY-JWT-SECRET}
+   duration: ${JWT_DURATION:86400}
+
