@@ -8,7 +8,9 @@ spring:
     database-platform: org.hibernate.dialect.H2Dialect
     hibernate:
       ddl-auto: create
+      format_sql: true
+    properties:
+      hibernate.show_sql: true
 
 server:
   port: 8080
-
